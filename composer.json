@@ -1,0 +1,14 @@
+{
+    "name": "drupal/flag_search_api",
+    "type": "drupal-module",
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "extra": {
+        "drush": {
+            "services": {
+                "drush.services.yml": "^9"
+            }
+        }
+    }
+}
